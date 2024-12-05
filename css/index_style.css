@@ -1,0 +1,45 @@
+body {
+
+    font-family: "微軟正黑體", Arial, sans-serif;
+    text-align: center;
+    background-color: #dbd9c4;
+  }
+
+  .main-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+
+  .divider {
+    width: 100px;
+    height: 4px;
+    background-color: #000;
+    margin: 20px auto;
+  }
+
+  .content p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    margin: 10px 0;
+    }
+
+/* 設定輪播圖片大小 */
+.carousel-inner img {
+  width: 600px; /* 固定寬度 */
+  height: 400px; /* 固定高度 */
+  object-fit: cover; /* 確保圖片不變形，按比例裁剪 */
+  margin: auto; /* 確保圖片水平居中 */
+}
+
+/* 置中整個輪播 */
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 讓輪播置於畫面中間 */
+  
+
+
+  }

@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(240, 232, 199);
+
+
+
+  }
+  
+  /* 菜單圖片固定大小 */
+  .menu-item img {
+    width: 400px; /* 固定圖片寬度 */
+    height: 300px; /* 固定圖片高度 */
+    object-fit: cover; /* 確保圖片按照比例填充，不變形 */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+
+  .menu-item img:hover {
+    transform: scale(1.05); /* 懸停放大效果 */
+  }
+
+  .menu-item h5 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .menu-item p {
+    color: #555;
+    font-size: 14px;
+  }
+
+  .category-title {
+    margin-top: 40px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+  }
+    
+  
