@@ -26,6 +26,10 @@
   
       <h2 class="category-title">小菜</h2>
       <menu-category :items="sideDishes"></menu-category>
+
+      <h2 class="category-title">湯品</h2>
+      <menu-category :items="soupDishes"></menu-category>
+
     </div>
   
     <footer-section></footer-section>
@@ -36,10 +40,11 @@
       data() {
         return {
           mainDishes: [
-            { id: 1, name: "招牌炸蛋蔥油雞肉飯", price: "大份NT$70/小份NT$60", img: "images/大雞.jpg" },
-            { id: 2, name: "炸蛋椒麻滷肉飯", price: "大份NT$60/小份NT$50", img: "images/大魯.jpg" },
+            { id: 1, name: "招牌炸蛋蔥油雞肉飯", price: "大份NT$70/小份NT$60", img: "images/雞肉飯.png" },
+            { id: 2, name: "炸蛋椒麻滷肉飯", price: "大份NT$60/小份NT$50", img: "images/滷肉飯.png" },
             { id: 3, name: "炸蛋秘香肉燥飯", price: "大份NT$60/小份NT$50", img: "images/大燥.jpg" },
-            { id: 4, name: ":DDDDDD", price: "大份NT$60/小份NT$50", img: "images/蘿蔔貢丸湯.jpg" },
+            { id: 4, name: "炸蛋雙拼雞滷飯", price: "大份NT$80/小份NT$65", img: "images/雞滷飯.png" },
+            { id: 4, name: "炸蛋椒麻雞片飯", price: "大份NT$80/小份NT$60", img: "images/椒麻雞.png" },
           ],
           noEggDishes: [
             { id: 1, name: "熬煉蔥油雞肉飯", price: "大份NT$55/小份NT$45", img: "images/無蛋雞.jpg" },
@@ -51,6 +56,12 @@
             { id: 2, name: "胡麻翠玉豆腐", price: "NT$40", img: "https://via.placeholder.com/300x200" },
             { id: 3, name: "半熟鴨蛋", price: "NT$25", img: "images/炸蛋.jpg" },
           ],
+          soupDishes: [
+            { id: 1, name: "慢燉蘿蔔貢丸湯", price: "NT$40", img: "images/蘿蔔貢丸湯.png" },
+            { id: 2, name: "清燉蘿蔔湯", price: "NT$30", img: "images/蘿蔔湯.png" },
+            { id: 3, name: "鮮美貢丸湯", price: "NT$30", img: "images/貢丸湯.png" },
+          ],
+          
         };
       },
     });
